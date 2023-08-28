@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-pmmh
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-lukj-tenant/mc-quality-dashboard/backend-quality-dashboard-pmmh@sha256:f03f73e26240e81d9aa29ee56f2bd6394fbab0191f7209e7ac75f6133e93f0b0
         imagePullPolicy: Always
         name: container-image
         ports:
